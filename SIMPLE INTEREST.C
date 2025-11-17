@@ -1,6 +1,4 @@
-2.SIMPLE INTEREST;
-
-// Online C compiler to run C program online
+2.SIMPLE INTEREST
 #include <stdio.h>
 
 int main() {
