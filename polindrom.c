@@ -1,6 +1,9 @@
 #include<stdio.h>
 int main(){
-    int rem,num=12321,rev=0,original;
+    int num,original,rem,rev=0;
+    printf("enter the number:");
+    scanf("%d",&num);
+    
     original=num;
     while(num!=0){
         rem=rem%10;
