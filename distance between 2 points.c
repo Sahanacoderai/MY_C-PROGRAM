@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>  // for sqrt() and pow()
+
+int main() {
+    double x1, y1, x2, y2, distance;
+
+    
+    printf("Enter coordinates of first point (x1 y1): ");
+    scanf("%lf %lf", &x1, &y1);
+
+    printf("Enter coordinates of second point (x2 y2): ");
+    scanf("%lf %lf", &x2, &y2);
+
+    
+    distance = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+
+  
+    printf("Straight line distance between points: %.2lf\n", distance);
+
+    return 0;
+}
