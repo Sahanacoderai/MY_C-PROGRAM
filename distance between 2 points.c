@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>  // for sqrt() and pow()
+#include <math.h>  
 
 int main() {
     double x1, y1, x2, y2, distance;
